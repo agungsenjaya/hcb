@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'kenyan-coffee-rg';
+    src:  url('../fonts/kenyan-coffee-rg.ttf');
+  }
+@font-face {
+    font-family: 'kenyan-coffee-bd';
+    src:  url('../fonts/kenyan-coffee-bd.ttf');
+  }
+body {
+    background-color: #000 !important;
+}
+.text-header {
+    color: #FF4F5A !important;
+    font-size: 1.5em;
+}
+.nav-cs {
+    background-color: #000000ad !important;
+    backdrop-filter: blur(20px);
+}
+.card-cs {
+    background-color: #ed1e242e !important;
+    backdrop-filter: blur(5px);
+    border-color: #700003 !important;
+}
+.nav-top > li {
+    margin-left: 3em;
+    text-transform: uppercase;
+    /* font-size: 1.1em; */
+    font-weight: 500;
+}
+.nav-top > li > a {
+    color: #fff !important;
+}
+.bg-primary-2 {
+    background-color: #C60207 !important;
+}
+.btn {
+    font-weight: 500 !important;
+    padding: 0.575rem 2rem !important;
+    border-radius: 0 1.2em 1.2em 1.2em !important;
+    text-transform: uppercase;
+}
+.bg-black {
+    background-color: #000;
+}
+.to-top {
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    left: 0;
+    right: 0;
+}
+.to-bottom {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.to-center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.grad-top {
+    background-image: linear-gradient(360deg,#00000000 5%,#000000);
+    height: 200px;
+}
+.grad-top-2 {
+    background-image: linear-gradient(360deg,#00000000 5%,#000000);
+    height: 55px;
+}
+.grad-bottom {
+    background-image: linear-gradient(360deg,#000000 5%,#00000000);
+    height: 200px;
+}
+.title-1 {
+    font-family: 'kenyan-coffee-rg';
+}
+.title-2 {
+    font-family: 'kenyan-coffee-bd';
+}
+.btn-icon {
+    width: 40px;
+    height: 40px;
+    /* border-radius: 50rem; */
+    border-radius: 0 1em 1em 1em !important;
+    font-size: 1rem;
+    padding: 0.45rem 0 0 0;
+}
+.fw-semibold {
+    font-weight: 500;
+}
+.space-m {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.rounded-cs {
+    border-radius: 0 2em 2em 2em !important;
+}
+.rounded-cs-2 {
+    border-radius: 0 1em 1em 1em !important;
+}
+.rounded-cs-end {
+    border-radius: 0 2em 2em 0 !important;
+}
+.bg-roadmaps {
+    background: url(../img/roadmaps.gif);
+    background-size: cover;
+}
+.list-road {
+    line-height: 2;
+}
+.list-road > li {
+    background-color: transparent;
+    color: #fff;
+    border-color: #700003 !important;
+    /* border-color: transparent !important; */
+}
+
+.list-footer > a {
+    padding-left: 0;
+    background-color: transparent;
+    color: #fff;
+    border-color: transparent;
+}
+.list-footer > a:hover {
+    background-color: transparent;
+    color: #fff;
+}
+.pointer {
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .nav-top {
+        line-height: 2;
+    }
+    .nav-top > li {
+        margin-left: 0px;
+        padding-left: 2em;
+        text-transform: uppercase;
+        font-weight: 500;
+        border-bottom: 1px solid #70000454;
+    }
+}
